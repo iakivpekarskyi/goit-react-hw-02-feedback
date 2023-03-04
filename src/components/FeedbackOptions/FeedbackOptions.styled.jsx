@@ -3,5 +3,14 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+`;
+
+export const Btn = styled.button`
+  width: 100px;
+  padding: 6px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
 `;

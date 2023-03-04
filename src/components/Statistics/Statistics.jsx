@@ -5,10 +5,6 @@ import { List } from './Statistics.styled';
 export class Statistics extends Component {
   state = {};
   render() {
-    return (
-      <List>
-        <h2>Statistics</h2>
-      </List>
-    );
+    return <List></List>;
   }
 }
