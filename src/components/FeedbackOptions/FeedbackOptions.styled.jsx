@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   gap: 10px;
 `;
 
-export const Btn = styled.button`
+export const Option = styled.button`
   width: 100px;
   padding: 6px;
   font-size: 18px;
