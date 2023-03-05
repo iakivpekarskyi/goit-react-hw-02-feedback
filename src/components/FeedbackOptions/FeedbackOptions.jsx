@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import PropTypes from 'prop-types';
 
 import { Btn, Wrapper } from './FeedbackOptions.styled';
@@ -15,4 +14,9 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
       })}
     </Wrapper>
   );
+};
+
+FeedbackOptions.propTypes = {
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
 };
