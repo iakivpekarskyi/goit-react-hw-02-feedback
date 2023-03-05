@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Form } from './App.styled';
-
 import { FeedbackOptions, Statistics, Section, Notification } from 'components';
 
 export class App extends Component {
